@@ -7,7 +7,7 @@ from functools import partial
 
 """
 All data is key'd by the timestep so there's a separate key for each timestep
-Therefore, you can add all sorts to data from different sources and it will be 
+Therefore, you can add all sorts to data from different sources and it will be
 grouped by the timestep
 
 Every data point is terminated by a \x00 byte
